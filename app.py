@@ -49,7 +49,7 @@ from pyngrok import ngrok
 
 
 # إعداد Flask
-app = Flask(name)
+app = Flask(__name__)
 CORS(app)
 
 # التحقق من نوع الملف
