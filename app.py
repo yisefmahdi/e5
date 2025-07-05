@@ -736,7 +736,7 @@ def analyze_question(question):
 
 
 # تحميل نموذج التضمين
-model = SentenceTransformer("all-MiniLM-L12-v2")
+model = SentenceTransformer("all-MiniLM-L6-v2")
 
 # 🔹 وظيفة تنقية الجمل المكررة ودمجها بشكل واضح
 def remove_duplicates_and_merge(tfidf_text, semantic_text):
